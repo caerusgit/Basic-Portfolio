@@ -1,0 +1,135 @@
+
+html {
+    background-color: white;
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+    background-color:white;
+    height: 130px;
+    border-bottom: 5px solid grey;
+}
+
+#headerContent {
+    width: 960;
+    margin: 0 auto;
+}
+
+
+#yourName{
+    padding: 40px 0px 40px 0px;
+    text-align: center;
+    font-size: 40px;
+    background-color: #4aaaa5;
+    color: white;
+    width: 300px;
+    float: left;
+    height: 55px
+}
+
+#menu {
+    float: right;
+    padding: 50px 0px 50px 0px;
+    text-align: center;
+    font-size: 25px;
+    color: darkgray;
+}
+
+#entireContentArea {
+    background-color: lightgray;
+    padding: 1 0 0 0;
+}
+
+h1 {
+    color: #4aaaa5;
+    margin: 45;
+    padding: 50 0 0 0;
+    font-size: 40;
+}
+
+hr {
+    margin: 0 45 0 45;
+}
+
+img {
+    margin: 45;
+    float: left;
+}
+
+#content {
+    clear: both;
+    width: 960;
+    margin: 70 auto;
+    background-color: white;
+    padding: 0 0 0 0;
+    height: 800;
+}
+
+h2 {
+    padding: 215 0 20 0;
+}
+
+footer {
+    text-align: center;
+    background-color: grey;
+    height: 50;
+    border-top: 10px solid #4aaaa5;
+    padding: 30 0 0 40;
+    margin: 0;
+}
+
+.innerContent {
+    margin: 0 45 0 45;
+}
+
+button {
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 20;
+    padding: 10 40 10 40;
+}
+
+input {
+    padding: 10;
+    margin: 10 0 0 0;
+}
+
+textarea {
+    margin: 10 0 0 0;
+}
+
+
+
+
+
+
+/* Float four columns side by side */
+.column {
+    float: left;
+    width: 31%;
+    height: 30%;
+    padding: 10;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 40 0 20 0;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 70px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
